@@ -17,6 +17,7 @@ activityKtx = "1.9.1"
 ksp = "2.0.21-1.0.27"
 hiltGradlePlugin = "2.51.1"
 navigation = "2.8.4"
+preferenceKtx = "1.2.1"
 
 
 [libraries]
@@ -54,6 +55,7 @@ ksp-compiler = { module = "com.google.devtools.ksp:symbol-processing", version.r
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomCompiler" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomCompiler" }
+androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtx" }
 
 
 
