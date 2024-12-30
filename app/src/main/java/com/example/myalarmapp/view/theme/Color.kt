@@ -1,4 +1,4 @@
-package com.example.myalarmapp.ui.theme
+package com.example.myalarmapp.view.theme
 
 import androidx.compose.ui.graphics.Color
 

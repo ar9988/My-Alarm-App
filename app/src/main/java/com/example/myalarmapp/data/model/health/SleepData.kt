@@ -13,8 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.myalarmapp.model
+package com.example.myalarmapp.data.model.health
 
-enum class ErrorEnum {
-    AUTHORIZATION_ERROR, RESOLVABLE_PLATFORM_ERROR, PLATFORM_INTERNAL_ERROR, INVALID_REQUEST_ERROR, NO_PERMISSION_ERROR, NO_DATA_ERROR
-}
+import java.time.Instant
+
+data class SleepData(
+    val score: Int?,
+    val sessionCount: Int,
+    val durationHours: Int,
+    val durationMinutes: Int,
+    val startTime: Instant,
+    val endTime: Instant?,
+    val sessions: List<Session>
+)

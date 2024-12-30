@@ -13,15 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.myalarmapp.model
+package com.example.myalarmapp.data.model.health
 
-import java.time.Instant
-
-data class Session(
-    val name: String,
-    val durationHours: Long,
-    val durationMinutes: Long,
-    val startTime: Instant,
-    val endTime: Instant,
-    val stages: List<SleepStage>
-)
+data class SleepError(val title: String, val message: String)

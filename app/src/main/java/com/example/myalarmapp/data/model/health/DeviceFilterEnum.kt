@@ -13,12 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.myalarmapp.model
+package com.example.myalarmapp.data.model.health
 
-import java.time.Instant
-
-data class SleepStage(
-    val startTime: Instant,
-    val endTime: Instant,
-    val stage: String
-)
+enum class DeviceFilterEnum {
+    ALL_DEVICES, WATCH, RING
+}

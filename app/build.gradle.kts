@@ -97,4 +97,8 @@ dependencies {
 
     // Navigation
     implementation(libs.androidx.navigation)
+
+    //sdk
+    implementation(files("libs/samsung-health-data-api-1.0.0b1.aar"))
+
 }
